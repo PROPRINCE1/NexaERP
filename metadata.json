@@ -1,6 +1,0 @@
-{
-  "name": "NexaERP AI",
-  "description": "Meet NexaERP AI, a student venture exploring practical operations intelligence for growing Pakistani businesses.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
