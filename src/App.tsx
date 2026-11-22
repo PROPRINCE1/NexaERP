@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { MotionConfig } from 'motion/react';
+import { Analytics } from '@vercel/analytics/react';
 import { AboutSection } from './components/AboutSection';
 import { ContactSection } from './components/ContactSection';
 import { ErpWorkspace } from './components/erp/ErpWorkspace';
@@ -125,6 +126,7 @@ export default function App() {
             <Footer onOpenWorkspace={openWorkspace} />
           </>
         )}
+        <Analytics />
       </div>
     </MotionConfig>
   );
